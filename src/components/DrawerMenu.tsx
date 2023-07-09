@@ -14,6 +14,17 @@ export default function DrawerMenu({ isOpen, handleClose }: DrawerMenuProps) {
         <Divider style={{ marginBottom: 16 }} />
         <nav className="flex flex-col gap-1">
           <Link
+            href="/"
+            className="
+            rounded-full px-4 py-2 border border-slate-300 font-medium
+            hover:bg-slate-200
+            active:bg-slate-300
+            "
+          >
+            Home
+          </Link>
+
+          <Link
             href="/pagamento"
             className="
             rounded-full px-4 py-2 border border-slate-300 font-medium
@@ -23,6 +34,7 @@ export default function DrawerMenu({ isOpen, handleClose }: DrawerMenuProps) {
           >
             Tabela de preços
           </Link>
+
           <Link
             href="/"
             className="
