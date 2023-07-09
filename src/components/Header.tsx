@@ -16,11 +16,13 @@ export function Header() {
   }
 
   return (
-    <header>
+    <header className="flex flex-row items-center gap-2 px-6 py-3 bg-slate-200 mb-6">
       <IconButton onClick={handleOpenDrawer}>
         <Menu className="text-black w-6 h-6" />
       </IconButton>
       <DrawerMenu isOpen={drawerIsOpen} handleClose={handleCloseDrawer} />
+
+      <strong>GeA Docs</strong>
     </header>
   );
 }
