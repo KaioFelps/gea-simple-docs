@@ -3,6 +3,7 @@ import { IconButton } from "@mui/material";
 import DrawerMenu from "./DrawerMenu";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
 
 export function Header() {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
@@ -22,7 +23,9 @@ export function Header() {
       </IconButton>
       <DrawerMenu isOpen={drawerIsOpen} handleClose={handleCloseDrawer} />
 
-      <strong>GeA Docs</strong>
+      <Link href="/">
+        <strong>GeA Docs</strong>
+      </Link>
     </header>
   );
 }
