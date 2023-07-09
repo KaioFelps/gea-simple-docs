@@ -1,4 +1,5 @@
 "use client";
+import { Heading } from "@/components/Heading";
 import { Card, Container, Divider, Stack } from "@mui/material";
 import Link from "next/link";
 
@@ -7,7 +8,7 @@ export default function Home() {
     <>
       <Container maxWidth="lg" className="flex items-center justify-center">
         <Card variant="outlined" sx={{ borderRadius: 2, padding: 4 }}>
-          <h1 className="text-2xl font-bold">Documentação da GeA Habblive</h1>
+          <Heading>Documentação da GeA Habblive</Heading>
 
           <Divider sx={{ marginBottom: 4, marginTop: 2 }} />
 
