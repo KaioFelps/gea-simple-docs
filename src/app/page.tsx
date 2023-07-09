@@ -30,7 +30,7 @@ export default function Home() {
             spacing={0.5}
           >
             <Link
-              href="/"
+              href="/pagamento"
               className="
             rounded-full text-blue-500 font-bold px-4 py-2 bg-blue-400/10 transition-all
             hover:bg-blue-400/20

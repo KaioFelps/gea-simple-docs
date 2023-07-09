@@ -14,7 +14,7 @@ export default function DrawerMenu({ isOpen, handleClose }: DrawerMenuProps) {
         <Divider style={{ marginBottom: 16 }} />
         <nav className="flex flex-col gap-1">
           <Link
-            href="/"
+            href="/pagamento"
             className="
             rounded-full px-4 py-2 border border-slate-300 font-medium
             hover:bg-slate-200
