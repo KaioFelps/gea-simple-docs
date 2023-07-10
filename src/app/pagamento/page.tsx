@@ -31,6 +31,7 @@ export default function Pagamento() {
   }
 
   const paymentTableRows = [
+    // serviço - minimo equipe - max equipe - minimo gea - max gea
     createData("Construção pequena", 0, 10, 0, 10),
     createData("Construção média", 0, 15, 0, 40),
     createData("Construção grande", 0, 30, 0, 60),
