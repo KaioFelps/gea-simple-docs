@@ -36,7 +36,7 @@ export default function DrawerMenu({ isOpen, handleClose }: DrawerMenuProps) {
           </Link>
 
           <Link
-            href="/"
+            href="/catalogo"
             className="
             rounded-full px-4 py-2 border border-slate-300 font-medium
             hover:bg-slate-200
