@@ -19,7 +19,7 @@ export default function CatalogoLayout({ children }: { children: ReactNode }) {
         variant="outlined"
         sx={{ width: "calc(100% - 48px)", maxWidth: 324, padding: 0 }}
       >
-        <h1 className="px-8 py-4 bg-gray-800 text-white font-bold text-xl">
+        <h1 className="px-3 py-4 bg-gray-800 text-white font-bold text-xl text-center">
           Catálogo de raros
         </h1>
 
