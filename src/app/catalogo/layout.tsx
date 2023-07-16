@@ -4,10 +4,25 @@ import { ReactNode } from "react";
 
 export default function CatalogoLayout({ children }: { children: ReactNode }) {
   return (
-    <CustomContainer sx={{ display: "flex", gap: 4 }} maxWidth="lg">
+    <CustomContainer
+      sx={{
+        display: "grid",
+        gridTemplateAreas: "'aside main'",
+        gridTemplateColumns: "324px 1fr",
+        gap: 4,
+
+        "@media (max-width: 1024px)": {
+          gridTemplateColumns: "1fr",
+          gridTemplateAreas: "'main' 'aside'",
+        },
+      }}
+      maxWidth="lg"
+    >
       <CatalogAsideNavigation />
 
-      <main className="w-full">{children}</main>
+      <main className="w-full" style={{ gridArea: "main" }}>
+        {children}
+      </main>
     </CustomContainer>
   );
 }
