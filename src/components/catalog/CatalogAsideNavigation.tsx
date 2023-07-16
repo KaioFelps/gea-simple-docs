@@ -15,10 +15,9 @@ export default function CatalogAsideNavigation() {
     <CustomCard
       variant="outlined"
       sx={{
-        width: "calc(100% - 48px)",
-        maxWidth: 324,
         padding: 0,
         height: "fit-content",
+        gridArea: "aside",
       }}
     >
       <h1 className="px-3 py-4 bg-slate-500 text-white font-bold text-xl text-center">
