@@ -1,5 +1,9 @@
+"use client";
+
 import { Box, Divider, Drawer } from "@mui/material";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { useEffect } from "react";
 
 interface DrawerMenuProps {
   isOpen: boolean;
@@ -7,6 +11,13 @@ interface DrawerMenuProps {
 }
 
 export default function DrawerMenu({ isOpen, handleClose }: DrawerMenuProps) {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    handleClose();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
+
   return (
     <Drawer keepMounted open={isOpen} onClose={handleClose} anchor="left">
       <Box width={"calc(100vw - 48px)"} maxWidth={450} padding={6}>
