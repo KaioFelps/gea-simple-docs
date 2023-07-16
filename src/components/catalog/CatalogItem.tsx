@@ -1,5 +1,5 @@
 import { Chip } from "@mui/material";
-import { CustomCard } from "./mui/Card";
+import { CustomCard } from "../mui/Card";
 
 interface CatalogItemProps {
   image: string;
