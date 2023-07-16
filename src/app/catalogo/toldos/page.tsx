@@ -7,7 +7,7 @@ import { Divider } from "@mui/material";
 
 import green from "@/assets/rares/marquee/green_marquee.png";
 import maroon from "@/assets/rares/marquee/maroon_marquee.png";
-import purple from "@/assets/rares/marquee/purple_marquee.png";
+// import purple from "@/assets/rares/marquee/purple_marquee.png";
 import colourable_1 from "@/assets/rares/marquee/rare_colourable_marquee_1-64-2-0.png";
 import colourable_2 from "@/assets/rares/marquee/rare_colourable_marquee_2-64-2-0.png";
 import yellow from "@/assets/rares/marquee/yellow_marquee.png";
