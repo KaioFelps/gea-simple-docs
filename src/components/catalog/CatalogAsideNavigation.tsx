@@ -4,6 +4,8 @@ import { CustomCard } from "@/components/mui/Card";
 import toldo from "@/assets/rare_colourable_marquee_1_icon.png";
 import bonnie from "@/assets/rare_colourable_pillow_1_icon.png";
 import catraca from "@/assets/one_way_door_6_icon.png";
+import elefante from "@/assets/blue_elephant_icon.png";
+import pinguim from "@/assets/blue_penguim_icon.png";
 import sorveteira from "@/assets/rare_colourable_icecream_1_icon.png";
 import leviathan from "@/assets/lostc_merdragon_icon.png";
 import pisoDePetala from "@/assets/rare_daffodil_rug_icon.png";
@@ -43,6 +45,20 @@ export default function CatalogAsideNavigation() {
         title="Catracas"
         image={catraca.src}
         imageAlt="Miniatura de uma catraca azul"
+      />
+
+      <CatalogNavItem
+        href="elefantes"
+        title="Elefantes"
+        image={elefante.src}
+        imageAlt="Miniatura de um elefante azul"
+      />
+
+      <CatalogNavItem
+        href="pinguins"
+        title="Pinguins"
+        image={pinguim.src}
+        imageAlt="Miniatura de um pinguim azul"
       />
 
       <CatalogNavItem
