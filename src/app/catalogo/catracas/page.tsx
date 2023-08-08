@@ -15,31 +15,31 @@ export default function Catracas() {
   const catalogItems = [
     {
       image: white.src,
-      price: 30,
+      price: 40,
       title: "Branco",
       furniName: "White One Way Gate",
     },
     {
       image: yellow.src,
-      price: 30,
+      price: 40,
       title: "Amarelo",
       furniName: "Yellow One Way Gate",
     },
     {
       image: black.src,
-      price: 40,
+      price: 50,
       title: "Preto",
       furniName: "Black One Way Gate",
     },
     {
       image: red.src,
-      price: 30,
+      price: 40,
       title: "Vermelho",
       furniName: "Red One Way Gate",
     },
     {
       image: green.src,
-      price: 40,
+      price: 60,
       title: "Verde",
       furniName: "Green One Way Gate",
     },
