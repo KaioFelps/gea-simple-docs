@@ -4,6 +4,7 @@ import { CustomCard } from "@/components/mui/Card";
 
 import logo from "@/assets/logo-da-gea.gif";
 import { Divider } from "@mui/material";
+import Link from "next/link";
 
 export default function CatalogoHomePage() {
   return (
@@ -16,11 +17,27 @@ export default function CatalogoHomePage() {
 
       <Divider sx={{ marginBlock: 3 }} />
 
-      <p>
-        Bem-vindo ao catálogo da GeA. Neste aglomerado de páginas, você poderá
-        encontrar todos os itens os quais você pode adquirir através dos{" "}
-        <strong>pontos da GeA</strong> no próximo semestre.
-      </p>
+      <div className="[&_p:not(:last-child)]:mb-3 [&_ol:not(:last-child)]:mb-3 [&_div:not(:last-child)]:mb-3">
+        <p>
+          Bem-vindo ao catálogo da GeA. Neste aglomerado de páginas, você poderá
+          encontrar todos os itens os quais você pode adquirir através dos{" "}
+          <strong>pontos da GeA</strong> no próximo semestre.
+        </p>
+
+        <p>
+          Para manter o mercado de raros saudáveis, alguns{" "}
+          <strong>limites</strong> precisam ser seguidos:
+        </p>
+
+        <ol className="list-decimal list-inside">
+          <li>quantidade máxima do mesmo raro por mês: 4;</li>
+          <li>máximo de espécie de raros da mesma categoria por mês: 3;</li>
+          <li>
+            <Link href="/catalogo/aleatorios">Coringas de campanha</Link> são
+            ilimitados.
+          </li>
+        </ol>
+      </div>
     </CustomCard>
   );
 }
