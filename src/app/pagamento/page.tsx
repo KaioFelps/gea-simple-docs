@@ -32,7 +32,7 @@ export default function Pagamento() {
     createData("Construção média", 80, 120),
     createData("Construção grande", 120, 200),
     createData("Programação pequena", 40, 80),
-    createData("Programação média", 60, 120),
+    createData("Programação média", 80, 120),
     createData("Programação grande", 120, 200),
     createData("Logo", 120, 200),
     createData("Expositor", 80, 140),
