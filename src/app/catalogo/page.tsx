@@ -25,7 +25,7 @@ export default function CatalogoHomePage() {
         </p>
 
         <p>
-          Para manter o mercado de raros saudáveis, alguns{" "}
+          Para manter o mercado de raros saudável, alguns{" "}
           <strong>limites</strong> precisam ser seguidos:
         </p>
 
