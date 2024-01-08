@@ -30,13 +30,13 @@ export default function RarosAleatorios() {
     },
     {
       image: nubeThrone.src,
-      price: 80,
+      price: 180,
       title: "Trono Nube",
       furniName: "Trono Nube",
     },
     {
       image: furnace.src,
-      price: 60,
+      price: 120,
       title: "Fornalha",
       furniName: "Raro Custom",
     },
